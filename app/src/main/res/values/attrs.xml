@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--圆点指示器View属性-->
+    <declare-styleable name="IndicateDotView">
+        <!--已选中指示点颜色-->
+        <attr name="indicate_select_color" format="color"/>
+        <!--未选中指示点颜色-->
+        <attr name="indicate_unselect_color" format="color"/>
+        <!--指示点之间的间距-->
+        <attr name="indicate_margin" format="dimension"/>
+        <!--指示点半径-->
+        <attr name="indicate_radius" format="dimension"/>
+        <!--指示点被选中个数-->
+        <attr name="indicate_number" format="integer"/>
+        <!--指示点最大个数-->
+        <attr name="indicate_max_number" format="integer"/>
+        <!--是否最少保留一个指示点-->
+        <attr name="indicate_is_least_one" format="boolean"/>
+        <!--边框颜色-->
+        <attr name="indicate_divide_color" format="color"/>
+        <!--边框宽度-->
+        <attr name="indicate_divide_width" format="dimension"/>
+        <!--是否可点击-->
+        <attr name="android:clickable" />
+    </declare-styleable>
+
+
+</resources>
